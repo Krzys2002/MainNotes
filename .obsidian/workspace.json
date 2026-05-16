@@ -1,0 +1,289 @@
+{
+  "main": {
+    "id": "2ace5aec1fe3db2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "dea11bf4d06b6428",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f9a58e50e632e89d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Short Test 2026-05-04"
+            }
+          },
+          {
+            "id": "fbbdedf5fe6e2fb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/Control Theory/State-space equations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "State-space equations"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38bff1674d06b5fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "611a30449a55c058",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccfe7e5c7f6b2bf0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ed4d09b8a6de49d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1a5013b127f3b0e5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1010642231f72479",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad89c94df5b026db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f44184bb71f4c03",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Short Test 2026-05-04"
+            }
+          },
+          {
+            "id": "f66f4e859d2adcf0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Short Test 2026-05-04"
+            }
+          },
+          {
+            "id": "2ef7d2b934ea2aa7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b159c2bb9ec8b8b2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b509a05ad8a72638",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Closed-Loop Speed Control System – Laboratory Report.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Closed-Loop Speed Control System – Laboratory Report"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "floating": {
+    "id": "55fc2cd2536a8a36",
+    "type": "floating",
+    "children": [
+      {
+        "id": "4820d1add8b461b4",
+        "type": "window",
+        "children": [
+          {
+            "id": "5370b165b4093f91",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8fc0e87fb0f720ab",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md"
+                  },
+                  "icon": "excalidraw-icon",
+                  "title": "State-space to diagram 2026-05-16 12.12.52.excalidraw"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 33,
+        "width": 1512,
+        "height": 949,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "f9a58e50e632e89d",
+  "lastOpenFiles": [
+    "MainNotes",
+    "Knowlage/Control Theory/State-space equations.md",
+    "Knowlage/Control Theory/Short Test 2026-05-04.md",
+    "Attachments/Pasted image 20260516190442.png",
+    "Attachments/Pasted image 20260516184525.png",
+    "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
+    "Knowlage/Control Theory/State-space to diagram.md",
+    "Excalidraw/Templates/ControlSystem/BaseTemplate.md",
+    "Excalidraw/State-space equations 2026-05-14 14.41.32.excalidraw.md",
+    "Excalidraw/State-space equations 2026-05-14 18.01.48.excalidraw.md",
+    "Excalidraw/State-space mechanical position example 2026-05-14 18.29.38.excalidraw.md",
+    "Excalidraw/State-space mechanical position example 2026-05-14 19.10.22.excalidraw.md",
+    "Attachments/Pasted image 20260514192432.png",
+    "Closed-Loop Speed Control System – Laboratory Report.md",
+    "Welcome.md",
+    "Test Graphs.md",
+    "ac_motor_study_guide.md",
+    "Knowlage/Control Theory/State-space mechanical position example.md",
+    "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.md",
+    "Excalidraw/Drawing 2026-05-14 10.53.37.excalidraw.md",
+    "Excalidraw/Drawing 2026-05-13 21.43.53.excalidraw.md",
+    "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.restored.md",
+    "Knowlage/Control Theory",
+    "Knowlage",
+    "Excalidraw/Scripts/Create Connected Block.md",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.md",
+    "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
+    "Excalidraw/Templates/ControlSystem/TriangelBlock.md",
+    "Excalidraw/Templates/ControlSystem/Integral.md",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Scripts/Excalidraw/create-connected-block.js.sb-a0a79791-bXPfvd",
+    "Scripts/Excalidraw/create-connected-block.js",
+    "Scripts/Excalidraw/untitled folder",
+    "Scripts/Excalidraw",
+    "Excalidraw/Scripts 1",
+    "Excalidraw/Templates/ControlSystem/SquereBlock.md",
+    "Excalidraw/Templates/ControlSystem/SumBlock.md",
+    "Excalidraw/Drawing 2026-05-13 16.42.28.excalidraw.md",
+    "Excalidraw/Templates/ControlSystem",
+    "Attachments/Set3Cur.png",
+    "Attachments/Set2Cur.png",
+    "Attachments/Set1Cur.png",
+    "Attachments/Set3Sqer.png",
+    "Attachments/Set3Prop 1.png",
+    "Attachments/Set3Prop.png"
+  ]
+}
