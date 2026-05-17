@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowlage/Control Theory/Similarity Transformation general.md",
+                "file": "Knowlage/Control Theory/Diagonalization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Similarity Transformation general"
+              "title": "Diagonalization"
             }
           },
           {
@@ -27,15 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowlage/Control Theory/State-space equations.md",
+                "file": "Knowlage/Control Theory/State-space to diagram.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State-space equations"
+              "title": "State-space to diagram"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -67,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#controlTe",
+                "query": "tag:#matematic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -127,12 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowlage/Control Theory/Similarity Transformation general.md",
+                "file": "Knowlage/Control Theory/State-space to diagram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Similarity Transformation general"
+              "title": "Outgoing links from State-space to diagram"
             }
           },
           {
@@ -210,13 +212,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f9a58e50e632e89d",
+  "active": "c1658795afa12457",
   "lastOpenFiles": [
+    "Knowlage/Control Theory/State-space mechanical position example.md",
+    "Knowlage/Control Theory/State-space equations.md",
+    "Knowlage/Control Theory/Diagonalization.md",
+    "Knowlage/Control Theory/Similarity Transformation.md",
     "Knowlage/Control Theory/Short Test 2026-05-04.md",
-    "Knowlage/Control Theory/Similarity Transformation general.md",
     "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
     "MainNotes",
-    "Knowlage/Control Theory/State-space equations.md",
     "Attachments/Pasted image 20260516190442.png",
     "Attachments/Pasted image 20260516184525.png",
     "Knowlage/Control Theory/State-space to diagram.md",
@@ -230,7 +234,6 @@
     "Welcome.md",
     "Test Graphs.md",
     "ac_motor_study_guide.md",
-    "Knowlage/Control Theory/State-space mechanical position example.md",
     "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.md",
     "Excalidraw/Drawing 2026-05-14 10.53.37.excalidraw.md",
     "Excalidraw/Drawing 2026-05-13 21.43.53.excalidraw.md",
@@ -251,7 +254,6 @@
     "Excalidraw/Scripts 1",
     "Excalidraw/Templates/ControlSystem/SquereBlock.md",
     "Excalidraw/Templates/ControlSystem/SumBlock.md",
-    "Excalidraw/Drawing 2026-05-13 16.42.28.excalidraw.md",
     "Attachments/Set3Cur.png",
     "Attachments/Set2Cur.png",
     "Attachments/Set1Cur.png",

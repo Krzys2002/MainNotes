@@ -1,3 +1,4 @@
+#mathematic #controlTheory 
 This note will introduce State Space equation and basic concepts connected to them.
 ## State-space representation
 $$
@@ -10,16 +11,19 @@ $$
 - $\underline{f}(\underline{x}, \underline{u}, t),\space \underline{h}(\underline{x}, \underline{u}, t)$ – set of transition and measurement functions, respectively;
 
 ### Equation for the linear plant
+#### Definition
 $$
 \begin{cases}
 \dot{\underline{x}} = A\underline{x} + B\underline{u} \\
 \underline{y} = C\underline{x} + D\underline{u}
 \end{cases}
 $$
+#### Expalnation
 - $A$ - process matrix $\rightarrow$ system dynamics,
 - $B$ - input matrix $\rightarrow$ impact of inputs on the system,
 - $C$ - output matrix $\rightarrow$ transformation of state variables in to outputs,
 - $D$ - transmission matrix $\rightarrow$ transferring the input directly to the output.
+#### Diagram
 
 ![[State-space equations 2026-05-14 14.41.32.excalidraw|1200]]
 ## How to interpret a plant to State-space representation
