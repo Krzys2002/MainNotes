@@ -36,17 +36,17 @@
             }
           },
           {
-            "id": "2417d6bb9e92295b",
+            "id": "7c23f80e3e226b3b",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "Knowlage/Control Theory/Short Test 2026-05-04.md",
-                "bFile": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: Short Test 2026-05-04  (Working Tree)"
+              "title": "Diff: .gitignore  (Working Tree)"
             }
           }
         ],
@@ -224,16 +224,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2417d6bb9e92295b",
+  "active": "7c23f80e3e226b3b",
   "lastOpenFiles": [
     "Knowlage/Control Theory/Short Test 2026-05-04.md",
+    "Knowlage/Control Theory/Similarity Transformation.md",
     "Knowlage/Control Theory/State-space equations.md",
     "Knowlage/Control Theory/Diagonalization.md",
     "Attachments/Pasted image 20260517163226.png",
     "[Diagonalization.md",
     "Knowlage/Control Theory/State-space to diagram.md",
     "Knowlage/Control Theory/State-space mechanical position example.md",
-    "Knowlage/Control Theory/Similarity Transformation.md",
     "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
     "MainNotes",
     "Attachments/Pasted image 20260516190442.png",
