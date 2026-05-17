@@ -78,32 +78,36 @@ $$
 now we calculate $D$
 #### Answer
 $$
-\begin{aligned}
-	D &= P^{-1}AP = \frac{1}{3}
-		\begin{bmatrix}
-			-1 & 1
+\boxed{
+	\begin{aligned}
+		D &= P^{-1}AP = \frac{1}{3}
+			\begin{bmatrix}
+				-1 & 1
+				\\
+				2 & 1
+			\end{bmatrix}
+			\begin{bmatrix}
+				4 & 1
+				\\
+				2 & 3
+			\end{bmatrix}
+			\begin{bmatrix}
+				-1 & 1
+				\\
+				2 & 1
+			\end{bmatrix}
+			=
 			\\
-			2 & 1
-		\end{bmatrix}
-		\begin{bmatrix}
-			4 & 1
-			\\
-			2 & 3
-		\end{bmatrix}
-		\begin{bmatrix}
-			-1 & 1
-			\\
-			2 & 1
-		\end{bmatrix}
-		=
-		\\
-		&= 
-		\begin{bmatrix}
-			2 & 0 
-			\\
-			0 & 5
-		\end{bmatrix}
-\end{aligned}
+			
+			&= 
+			\begin{bmatrix}
+				2 & 0 
+				\\
+				0 & 5
+			\end{bmatrix}
+		
+	\end{aligned}
+}
 $$
 $D$ is now Diagonalize $A$
 ## Task 2
@@ -112,24 +116,26 @@ $D$ is now Diagonalize $A$
 ### Solution
 #### Answer
 $$
-\begin{cases}
-	\dot{\underline{x}} =
-	\begin{bmatrix}
-		0 & 1 & 0 \\
-		0 & 0 & 1 \\
-		-24 & -26 & -9
-	\end{bmatrix}
-	\underline{x} + 
-	\begin{bmatrix}
-		0 \\
-		0 \\
-		24
-	\end{bmatrix} r \\
-	y = 
-	\begin{bmatrix}
-		1 & 0 & 0
-	\end{bmatrix} \underline{x}
-\end{cases}
+\boxed{
+	\begin{cases}
+		\dot{\underline{x}} =
+		\begin{bmatrix}
+			0 & 1 & 0 \\
+			0 & 0 & 1 \\
+			-24 & -26 & -9
+		\end{bmatrix}
+		\underline{x} + 
+		\begin{bmatrix}
+			0 \\
+			0 \\
+			24
+		\end{bmatrix} r \\
+		y = 
+		\begin{bmatrix}
+			1 & 0 & 0
+		\end{bmatrix} \underline{x}
+	\end{cases}
+}
 $$
 ## Task 3
 Find the state-space representation of the given transfer function. (2 points)
@@ -189,24 +195,26 @@ $$
 now we can create state space representation
 #### Answer
 $$
-\begin{cases}
-	\dot{\underline{x}} =
-	\begin{bmatrix}
-		0 & 1 & 0 \\
-		0 & 0 & 1 \\
-		-6 & -11 & -6
-	\end{bmatrix}
-	\underline{x} + 
-	\begin{bmatrix}
-		0 \\
-		0 \\
-		1
-	\end{bmatrix} u \\
-	y = 
-	\begin{bmatrix}
-		10 & 0 & 0
-	\end{bmatrix} \underline{x}
-\end{cases}
+\boxed{
+	\begin{cases}
+		\dot{\underline{x}} =
+		\begin{bmatrix}
+			0 & 1 & 0 \\
+			0 & 0 & 1 \\
+			-6 & -11 & -6
+		\end{bmatrix}
+		\underline{x} + 
+		\begin{bmatrix}
+			0 \\
+			0 \\
+			1
+		\end{bmatrix} u \\
+		y = 
+		\begin{bmatrix}
+			10 & 0 & 0
+		\end{bmatrix} \underline{x}
+	\end{cases}
+}
 $$
 
 ### Solution 2
@@ -246,24 +254,26 @@ $$
 now we can create state space representation
 #### Answer
 $$
-\begin{cases}
-	\dot{\underline{x}} =
-	\begin{bmatrix}
-		0 & 1 & 0 \\
-		0 & 0 & 1 \\
-		-6 & -11 & -6
-	\end{bmatrix}
-	\underline{x} + 
-	\begin{bmatrix}
-		0 \\
-		0 \\
-		1
-	\end{bmatrix} u \\
-	y = 
-	\begin{bmatrix}
-		10 & 0 & 0
-	\end{bmatrix} \underline{x}
-\end{cases}
+\boxed{
+	\begin{cases}
+		\dot{\underline{x}} =
+		\begin{bmatrix}
+			0 & 1 & 0 \\
+			0 & 0 & 1 \\
+			-6 & -11 & -6
+		\end{bmatrix}
+		\underline{x} + 
+		\begin{bmatrix}
+			0 \\
+			0 \\
+			1
+		\end{bmatrix} u \\
+		y = 
+		\begin{bmatrix}
+			10 & 0 & 0
+		\end{bmatrix} \underline{x}
+	\end{cases}
+}
 $$
 ## Task 4
 Find the transfer function representation of a given state-space system. (2 points)
@@ -328,7 +338,9 @@ $$
 And we have our $G(S)$
 #### Answer
 $$
-G(s) = \frac{1}{s^2 + 2s + 1}
+\boxed{
+	G(s) = \frac{1}{s^2 + 2s + 1}
+}
 $$
 
 ### Solution 2
@@ -434,7 +446,9 @@ $$
 and we have solution:
 #### Answer
 $$
-G(s) = \frac{1}{s^2 + 2s + 1}
+\boxed{
+	G(s) = \frac{1}{s^2 + 2s + 1}
+}
 $$
 
 ## Task 5
@@ -464,31 +478,34 @@ $$
 First we write equation for $\dot{x}_1$ and $\dot{x}_2$:
 $$
 \begin{gathered}
-	\dot{x}_1 = -x_1 + x_2 \\
-	\dot{x}_2 = -x_1 - \frac{1}{10} x_2 + 10u
+	\dot{\bar{x}}_1 = \dot{x}_1 = -x_1 + x_2\\
+	\dot{x}_2 = -x_1 - \frac{1}{10} x_2 + 10u \\
 \end{gathered}
 $$
 then we see that:
 $$
-\dot{x}_1 = -x_1 + x_2 = \bar{x}_2
+\dot{\bar{x}}_2 = -\dot{x}_1 + \dot{x}_2
 $$
-then we see similarity $\dot{x}_2$ to $\bar{x}_2$:
+then we substitute $\dot{x}_1$ and $\dot{x}_2$:
 $$
 \begin{aligned}
-	x_2 &= \bar{x}_2 + x_1 \\
-	\dot{\bar{x}}_2 &= -x_1 - \frac{1}{10}(\bar{x}_2 + x_1) + 10u \\
-	\dot{\bar{x}}_2 &= -\frac{11}{10}x_1 - \frac{1}{10}\bar{x}_2 + 10u \\
-	\dot{\bar{x}}_2 &= -\frac{11}{10}\bar{x}_1 - \frac{1}{10}\bar{x}_2 + 10u
+	\dot{\bar{x}}_2 &= -(-x_1 + x_2) + (-x_1 - \frac{1}{10}x_2 + 10u) \\
+		&= - \frac{11}{10}x_2 + 10u \\
+		&= \frac{11}{10}x_1 - \frac{11}{10}x_2 - \frac{11}{10}x_1 + 10u \\
+		&= -\frac{11}{10}\bar{x}_2 - \frac{11}{10}\bar{x}_1 + 10u
+	
 \end{aligned}
 $$
 then we get A:
 #### Answer
 $$
-A = 
-	\begin{bmatrix}
-	0 & 1 \\
-	-\frac{11}{10} & - \frac{1}{10}
-	\end{bmatrix}
+\boxed{
+	A = 
+		\begin{bmatrix}
+		0 & 1 \\
+		-\frac{11}{10} & - \frac{11}{10}
+		\end{bmatrix}
+}
 $$
 ## Task 6
 Find differential equations that describe the system in the Fig. 2 (2 points)
@@ -498,17 +515,25 @@ Find differential equations that describe the system in the Fig. 2 (2 points)
 Equation from second Newton's law:
 #### Answer
 $$
+
 \begin{aligned}
-	&\begin{cases}
-		m_1 \ddot{x}_1 &= u - k_1 x_1 + k_2(x_2 - x_1) + b(\dot{x}_2 - \dot{x}_1) \\
-		m_2 \ddot{x}_2 &= -k_2(x_2 - x_1) - k_3 x_2 - b(\dot{x}_2 - \dot{x}_1)
-	\end{cases}
+	&
+	\boxed{
+		\begin{cases}
+			m_1 \ddot{x}_1 &= u - k_1 x_1 + k_2(x_2 - x_1) + b(\dot{x}_2 - \dot{x}_1) \\
+			m_2 \ddot{x}_2 &= -k_2(x_2 - x_1) - k_3 x_2 - b(\dot{x}_2 - \dot{x}_1)
+		\end{cases}
+	}
 	\\
-	&\begin{cases}
-		\ddot{x}_1 &= \frac{u}{m_1} -\frac{k_1}{m_1} x_1 + \frac{k_2}{m_1}(x_2 - x_1) - \frac{b}{m_1}(\dot{x}_2 - \dot{x}_1)
-		\\
-		\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) - \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
-	\end{cases}
+	
+	&
+	\boxed{
+		\begin{cases}
+			\ddot{x}_1 &= \frac{u}{m_1} -\frac{k_1}{m_1} x_1 + \frac{k_2}{m_1}(x_2 - x_1) - \frac{b}{m_1}(\dot{x}_2 - \dot{x}_1)
+			\\
+			\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) - \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
+		\end{cases}
+	}
 \end{aligned}
 $$
 ## Task 7
@@ -530,17 +555,23 @@ now we create $x_1 = U_{C1}$ and $x_2 = U_{C2}$ and substitute:
 #### Answer
 $$
 \begin{aligned}
-	&\begin{cases}
-		C_1\dot{x}_1 = \frac{e_i - x_1}{R_1} - \frac{x_1 - x_2}{R_2} \\
-		C_2\dot{x}_2 = \frac{x_1 - x_2}{R_2}
-	\end{cases}
+	&
+	\boxed{
+		\begin{cases}
+			C_1\dot{x}_1 = \frac{e_i - x_1}{R_1} - \frac{x_1 - x_2}{R_2} \\
+			C_2\dot{x}_2 = \frac{x_1 - x_2}{R_2}
+		\end{cases}
+	}
 	\\
 	\\
-	&\begin{cases}
-	\dot{x}_1 = -\frac{R_1 + R_2}{R_1 R_2 C_1}x_1 + \frac{1}{R_2 C_1}x_2 + \frac{1}{R_1 C_1}e_i
-	\\
-	\dot{x}_2 = \frac{1}{R_2 C_2}x_1 - \frac{1}{R_2 C_2}x_2
-	\end{cases}
+	&
+	\boxed{
+		\begin{cases}
+		\dot{x}_1 = -\frac{R_1 + R_2}{R_1 R_2 C_1}x_1 + \frac{1}{R_2 C_1}x_2 + \frac{1}{R_1 C_1}e_i
+		\\
+		\dot{x}_2 = \frac{1}{R_2 C_2}x_1 - \frac{1}{R_2 C_2}x_2
+		\end{cases}
+	}
 \end{aligned}
 $$
 ## Task 8
@@ -588,22 +619,25 @@ $$
 \end{aligned}
 $$
 State space representation of the system:
+#### Answer
 $$
-\begin{aligned}
-	\dot{x} &= 
-		\begin{bmatrix}
-			-\frac{R}{L} & -\frac{K}{L}
-			\\
-			\frac{K}{J} & - \frac{b}{J}
-		\end{bmatrix}
-		x + 
-		\begin{bmatrix}
-			\frac{1}{L} 
-			\\
-			0
-		\end{bmatrix}
-		u
-	\\
-	y &= \begin{bmatrix} 0 & 1 \end{bmatrix} x 
-\end{aligned}
+\boxed{
+	\begin{aligned}
+		\dot{x} &= 
+			\begin{bmatrix}
+				-\frac{R}{L} & -\frac{K}{L}
+				\\
+				\frac{K}{J} & - \frac{b}{J}
+			\end{bmatrix}
+			x + 
+			\begin{bmatrix}
+				\frac{1}{L} 
+				\\
+				0
+			\end{bmatrix}
+			u
+		\\
+		y &= \begin{bmatrix} 0 & 1 \end{bmatrix} x 
+	\end{aligned}
+}
 $$
