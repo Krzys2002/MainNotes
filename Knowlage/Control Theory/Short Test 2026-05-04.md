@@ -1,3 +1,111 @@
+## Task 1
+Diagonalize the matrix $A$:
+$$
+A = 
+\begin{bmatrix}
+4 & 1
+\\
+2 & 3
+\end{bmatrix}
+$$
+Provide the transformation matrix $P$ such that $A= PDP^{-1}$, where $D$ is a diagonal matrix. (2 points)
+### Solution
+Calculate eigenvalues by
+![[Diagonalization#Find eigenvalues]]
+$$
+\begin{aligned}
+	0 &= det 
+	\left(
+		\begin{bmatrix}
+			\lambda - 4 & -1
+			\\
+			-2 & \lambda -3
+		\end{bmatrix}
+	\right)
+	=
+	\lambda^2 - 7\lambda + 12 - 2
+	\\
+	&= \lambda^2 -7\lambda + 10
+	\\
+	\\
+	\Delta &= 49 - 4 \cdot 10 = 9 \Rightarrow \sqrt{\Delta}= 3
+	\\
+	\\
+	&\lambda_1 = 2 \quad \lambda_2 = 5
+\end{aligned} 
+$$
+now we can calculate $\omega_1$ and $\omega_2$ form this:
+![[Diagonalization#Find eigenvectors]]
+for my values:
+$$
+\begin{aligned}
+	c_1 = \frac{2 - 3}{2} = -\frac{1}{2}
+	\\
+	c_2 = \frac{5 - 3}{2} = 1
+\end{aligned}
+$$
+with we get $\omega_1^T = \begin{bmatrix} -1 & 2 \end{bmatrix}$ and $\omega_2^T = \begin{bmatrix} 1 & 1 \end{bmatrix}$.
+then $P$ is
+$$
+P = 
+\begin{bmatrix}
+	\omega_1 & \omega_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+	-1 & 1
+	\\
+	2 & 1
+\end{bmatrix}
+$$
+and 
+$$
+P^{-1} = 
+\frac{1}{det(P)}
+\begin{bmatrix}
+	1 & -1
+	\\
+	-2 & -1
+\end{bmatrix}
+=
+\frac{1}{3}
+\begin{bmatrix}
+	-1 & 1
+	\\
+	2 & 1
+\end{bmatrix}
+$$
+now we calculate $D$
+#### Answer
+$$
+\begin{aligned}
+	D &= P^{-1}AP = \frac{1}{3}
+		\begin{bmatrix}
+			-1 & 1
+			\\
+			2 & 1
+		\end{bmatrix}
+		\begin{bmatrix}
+			4 & 1
+			\\
+			2 & 3
+		\end{bmatrix}
+		\begin{bmatrix}
+			-1 & 1
+			\\
+			2 & 1
+		\end{bmatrix}
+		=
+		\\
+		&= 
+		\begin{bmatrix}
+			2 & 0 
+			\\
+			0 & 5
+		\end{bmatrix}
+\end{aligned}
+$$
+$D$ is now Diagonalize $A$
 ## Task 2
  Find the state-space representation of the block diagram given in the Fig. 1 (1 point)
  ![[Pasted image 20260514192432.png]]
@@ -140,8 +248,8 @@ $$
  \begin{cases}
 	 \dot{\underline{x}} =
 	 \begin{bmatrix}
-		 0 & 0 & 1 \\
 		 0 & 1 & 0 \\
+		 0 & 0 & 1 \\
 		 -6 & -11 & -6
 	 \end{bmatrix}
 	 \underline{x} + 
@@ -398,7 +506,7 @@ $$
 	&\begin{cases}
 		\ddot{x}_1 &= \frac{u}{m_1} -\frac{k_1}{m_1} x_1 + \frac{k_2}{m_1}(x_2 - x_1) - \frac{b}{m_1}(\dot{x}_2 - \dot{x}_1)
 		\\
-		\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) + \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
+		\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) - \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
 	\end{cases}
 \end{aligned}
 $$
@@ -432,5 +540,69 @@ $$
 	\\
 	\dot{x}_2 = \frac{1}{R_2 C_2}x_1 - \frac{1}{R_2 C_2}x_2
 	\end{cases}
+\end{aligned}
+$$
+## Task 8
+Derive the state-space representation of the DC motor system shown below. The motor converts electrical energy into rotational mechanical energy. The input is the voltage $V$ applied to the motor’s armature, and the output is the angular velocity $\dot{\theta}$. (2 points)
+![[Pasted image 20260517163226.png]]
+### Solution 
+System equations:
+$$
+\begin{aligned}
+	0 &= V - K \dot{\theta} - L\frac{di}{dt} - Ri
+	\\
+	J \ddot{\theta} &= Ki - b \dot{\theta}
+\end{aligned}
+$$
+so:
+$$
+\begin{aligned}
+	L\frac{di}{dt} &= V - K \dot{\theta} - Ri
+	\\
+	J \ddot{\theta} &= Ki - b \dot{\theta}
+\end{aligned}
+$$
+then:
+$$
+\begin{aligned}
+	x_1 &= i
+	\\
+	x_2 &= \dot{\theta}
+\end{aligned}
+$$
+after substitution:
+$$
+\begin{aligned}
+	L \dot{x}_1 &= V - K x_2 - R x_1
+	\\
+	J \dot{x}_2 &= K x_1 - b x_2
+\end{aligned}
+$$
+so:
+$$
+\begin{aligned}
+	\dot{x}_1 &= \frac{V}{L} - \frac{K}{L} x_2 - \frac{R}{L} x_1
+	\\
+	\dot{x}_2 &= \frac{K}{J} x_1 - \frac{b}{J} x_2
+\end{aligned}
+$$
+State space representation of the system:
+$$
+\begin{aligned}
+	\dot{x} &= 
+		\begin{bmatrix}
+			-\frac{R}{L} & -\frac{K}{L}
+			\\
+			\frac{K}{J} & - \frac{b}{J}
+		\end{bmatrix}
+		x + 
+		\begin{bmatrix}
+			\frac{1}{L} 
+			\\
+			0
+		\end{bmatrix}
+		u
+	\\
+	y &= \begin{bmatrix} 0 & 1 \end{bmatrix} x 
 \end{aligned}
 $$
