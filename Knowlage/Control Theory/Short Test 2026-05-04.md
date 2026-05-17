@@ -111,26 +111,26 @@ $D$ is now Diagonalize $A$
  ![[Pasted image 20260514192432.png]]
 ### Solution
 #### Answer
- $$
- \begin{cases}
-	 \dot{\underline{x}} =
-	 \begin{bmatrix}
-		 0 & 1 & 0 \\
-		 0 & 0 & 1 \\
-		 -24 & -26 & -9
-	 \end{bmatrix}
-	 \underline{x} + 
-	 \begin{bmatrix}
-		 0 \\
-		 0 \\
-		 24
-	 \end{bmatrix} r \\
-	 y = 
-	 \begin{bmatrix}
-		 1 & 0 & 0
-	 \end{bmatrix} \underline{x}
- \end{cases}
- $$
+$$
+\begin{cases}
+	\dot{\underline{x}} =
+	\begin{bmatrix}
+		0 & 1 & 0 \\
+		0 & 0 & 1 \\
+		-24 & -26 & -9
+	\end{bmatrix}
+	\underline{x} + 
+	\begin{bmatrix}
+		0 \\
+		0 \\
+		24
+	\end{bmatrix} r \\
+	y = 
+	\begin{bmatrix}
+		1 & 0 & 0
+	\end{bmatrix} \underline{x}
+\end{cases}
+$$
 ## Task 3
 Find the state-space representation of the given transfer function. (2 points)
 $$
@@ -141,8 +141,8 @@ $$
 $$
 \begin{aligned}
 	G(s) &= \frac{10}{(s + 1)(s + 2)(s + 3)} \\
-     &= \frac{10}{s^3 + (1+2+3)s^2 + (2+3+6)s + 6} \\
-     &= \frac{10}{s^3 + 6s^2 + 11s + 6}
+	 &= \frac{10}{s^3 + (1+2+3)s^2 + (2+3+6)s + 6} \\
+	 &= \frac{10}{s^3 + 6s^2 + 11s + 6}
 \end{aligned}
 $$
 form $G(s)=\frac{Y(S)}{U(S)}$ we get:
@@ -188,32 +188,33 @@ $$
 $$
 now we can create state space representation
 #### Answer
- $$
- \begin{cases}
-	 \dot{\underline{x}} =
-	 \begin{bmatrix}
-		 0 & 1 & 0 \\
-		 0 & 0 & 1 \\
-		 -6 & -11 & -6
-	 \end{bmatrix}
-	 \underline{x} + 
-	 \begin{bmatrix}
-		 0 \\
-		 0 \\
-		 1
-	 \end{bmatrix} u \\
-	 y = 
-	 \begin{bmatrix}
-		 10 & 0 & 0
-	 \end{bmatrix} \underline{x}
- \end{cases}
- $$
+$$
+\begin{cases}
+	\dot{\underline{x}} =
+	\begin{bmatrix}
+		0 & 1 & 0 \\
+		0 & 0 & 1 \\
+		-6 & -11 & -6
+	\end{bmatrix}
+	\underline{x} + 
+	\begin{bmatrix}
+		0 \\
+		0 \\
+		1
+	\end{bmatrix} u \\
+	y = 
+	\begin{bmatrix}
+		10 & 0 & 0
+	\end{bmatrix} \underline{x}
+\end{cases}
+$$
+
 ### Solution 2
 $$
 \begin{aligned}
 	G(s) &= \frac{10}{(s + 1)(s + 2)(s + 3)} \\
-     &= \frac{10}{s^3 + (1+2+3)s^2 + (2+3+6)s + 6} \\
-     &= \frac{10}{s^3 + 6s^2 + 11s + 6} = G_1(s)*G_2(2)s \\\\
+	 &= \frac{10}{s^3 + (1+2+3)s^2 + (2+3+6)s + 6} \\
+	 &= \frac{10}{s^3 + 6s^2 + 11s + 6} = G_1(s)*G_2(2)s \\\\
 	G_1(s) &= \frac{1}{s^3 + 6s^2 + 11s + 6} = \frac{X(s)}{U(s)}\\ 
 	G_2(s) &= 10 = \frac{Y(s)}{X(s)} \\
 	U(s) &= X(s)*(s^3 + 6s^2 + 11s + 6) \\
@@ -245,25 +246,25 @@ $$
 now we can create state space representation
 #### Answer
 $$
- \begin{cases}
-	 \dot{\underline{x}} =
-	 \begin{bmatrix}
-		 0 & 1 & 0 \\
-		 0 & 0 & 1 \\
-		 -6 & -11 & -6
-	 \end{bmatrix}
-	 \underline{x} + 
-	 \begin{bmatrix}
-		 0 \\
-		 0 \\
-		 1
-	 \end{bmatrix} u \\
-	 y = 
-	 \begin{bmatrix}
-		 10 & 0 & 0
-	 \end{bmatrix} \underline{x}
- \end{cases}
- $$
+\begin{cases}
+	\dot{\underline{x}} =
+	\begin{bmatrix}
+		0 & 1 & 0 \\
+		0 & 0 & 1 \\
+		-6 & -11 & -6
+	\end{bmatrix}
+	\underline{x} + 
+	\begin{bmatrix}
+		0 \\
+		0 \\
+		1
+	\end{bmatrix} u \\
+	y = 
+	\begin{bmatrix}
+		10 & 0 & 0
+	\end{bmatrix} \underline{x}
+\end{cases}
+$$
 ## Task 4
 Find the transfer function representation of a given state-space system. (2 points)
 $$

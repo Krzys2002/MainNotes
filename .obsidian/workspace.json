@@ -39,14 +39,14 @@
             "id": "2417d6bb9e92295b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Knowlage/Control Theory/Short Test 2026-05-04.md",
-                "mode": "source",
-                "source": false
+                "aFile": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "bFile": "Knowlage/Control Theory/Short Test 2026-05-04.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Short Test 2026-05-04"
+              "icon": "diff",
+              "title": "Diff: Short Test 2026-05-04  (Working Tree)"
             }
           }
         ],
@@ -142,12 +142,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowlage/Control Theory/Short Test 2026-05-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Short Test 2026-05-04"
+              "title": "Outgoing links"
             }
           },
           {
@@ -227,9 +226,9 @@
   },
   "active": "2417d6bb9e92295b",
   "lastOpenFiles": [
+    "Knowlage/Control Theory/Short Test 2026-05-04.md",
     "Knowlage/Control Theory/State-space equations.md",
     "Knowlage/Control Theory/Diagonalization.md",
-    "Knowlage/Control Theory/Short Test 2026-05-04.md",
     "Attachments/Pasted image 20260517163226.png",
     "[Diagonalization.md",
     "Knowlage/Control Theory/State-space to diagram.md",
