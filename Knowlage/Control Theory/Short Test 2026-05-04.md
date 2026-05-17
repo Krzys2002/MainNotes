@@ -44,7 +44,7 @@ $$
 	c_2 = \frac{5 - 3}{2} = 1
 \end{aligned}
 $$
-with we get $\omega_1^T = \begin{bmatrix} 1 & -2 \end{bmatrix}$ and $\omega_2^T = \begin{bmatrix} 1 & 1 \end{bmatrix}$.
+with we get $\omega_1^T = \begin{bmatrix} -1 & 2 \end{bmatrix}$ and $\omega_2^T = \begin{bmatrix} 1 & 1 \end{bmatrix}$.
 then $P$ is
 $$
 P = 
@@ -248,8 +248,8 @@ $$
  \begin{cases}
 	 \dot{\underline{x}} =
 	 \begin{bmatrix}
-		 0 & 0 & 1 \\
 		 0 & 1 & 0 \\
+		 0 & 0 & 1 \\
 		 -6 & -11 & -6
 	 \end{bmatrix}
 	 \underline{x} + 
@@ -506,7 +506,7 @@ $$
 	&\begin{cases}
 		\ddot{x}_1 &= \frac{u}{m_1} -\frac{k_1}{m_1} x_1 + \frac{k_2}{m_1}(x_2 - x_1) - \frac{b}{m_1}(\dot{x}_2 - \dot{x}_1)
 		\\
-		\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) + \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
+		\ddot{x}_2 &= - \frac{k_2}{m_2}(x_2 - x_1) - \frac{k_3}{m_2} x_2 + \frac{b}{m_2}(\dot{x}_2 - \dot{x}_1)
 	\end{cases}
 \end{aligned}
 $$
