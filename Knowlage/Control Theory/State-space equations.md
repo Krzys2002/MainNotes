@@ -1,4 +1,4 @@
-#matematic #controlTheory 
+#mathematic #controlTheory 
 This note will introduce State Space equation and basic concepts connected to them.
 ## State-space representation
 $$

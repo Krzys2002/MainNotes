@@ -1,4 +1,4 @@
-#controlTheory #matematic 
+#controlTheory #mathematic 
 This note will solve example of state space modeling of mechanical system. to solve we have Mass-spring-damping system
 
 ## System introduction

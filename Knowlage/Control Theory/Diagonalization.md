@@ -1,4 +1,4 @@
-#matematic #controlTheory 
+#mathematic #controlTheory 
 Before you look in to this note please be familiar with [[Similarity Transformation]].
 
 ## Main idea

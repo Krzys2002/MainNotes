@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#controlTe",
+                "query": "tag:#matematic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,7 +212,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fbbdedf5fe6e2fb0",
+  "active": "c1658795afa12457",
   "lastOpenFiles": [
     "Knowlage/Control Theory/State-space mechanical position example.md",
     "Knowlage/Control Theory/State-space equations.md",

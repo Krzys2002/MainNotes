@@ -1,4 +1,4 @@
-#matematic #controlTheory
+#mathematic #controlTheory
 ## General
 If we have state space equation:
 $$
