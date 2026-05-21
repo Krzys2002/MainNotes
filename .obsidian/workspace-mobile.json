@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Knowlage/Control Theory/State-space to diagram.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "State-space to diagram"
@@ -29,8 +29,8 @@
               "state": {
                 "file": "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.md"
               },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2026-05-13 17.09.57.excalidraw"
+              "icon": "lucide-ghost",
+              "title": "excalidraw"
             }
           }
         ]
@@ -169,21 +169,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "bases:Create new base": false
     }
   },
   "active": "0141bfb0dbbf6878",
   "lastOpenFiles": [
-    "Knowlage/Control Theory/Short Test 2026-05-04.md",
     "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
+    "Knowlage/Control Theory/Short Test 2026-05-04.md",
+    "Knowlage/Control Theory/State-space to diagram.md",
+    "Knowlage/Control Theory/Similarity Transformation.md",
+    "Knowlage/Control Theory/Diagonalization.md",
+    "Knowlage/Control Theory/State-space equations.md",
     "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.restored.md",
     "ac_motor_study_guide.md",
     "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.md",

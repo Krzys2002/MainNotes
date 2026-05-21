@@ -19,9 +19,9 @@ $$
 Then we can transform to:
 $$
 \begin{aligned}
-	\dot{z} &= (P^{-1}A)(Px) + (P^{-1}B)u 
+	\dot{z} &= (P^{-1}A)(Pz) + (P^{-1}B)u 
 	\\
-	y &= C(Px) + Du
+	y &= C(Pz) + Du
 \end{aligned}
 $$
 now we can mark:
@@ -35,8 +35,8 @@ $$
 then we gat final form:
 $$
 \begin{aligned}
-	\dot{z} &= \hat{A}z + \hat{B}u 
+	\dot{z} &= \hat{A}Pz + \hat{B}u 
 	\\
-	y &= Cz + Du
+	y &= CPz + Du
 \end{aligned}
 $$
