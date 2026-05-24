@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowlage/Control Theory/State-space equations.md",
+                "file": "Knowlage/Flying Robots/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State-space equations"
+              "title": "Untitled"
             }
           }
         ]
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowlage/Control Theory/State-space equations.md",
+                "file": "Knowlage/Flying Robots/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from State-space equations"
+              "title": "Outgoing links from Untitled"
             }
           },
           {
@@ -196,16 +196,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccfe7e5c7f6b2bf0",
+  "active": "40ebe28bf23f5e9a",
   "lastOpenFiles": [
-    "Knowlage/Flying Robots",
-    "Knowlage/Control Theory/Short Test 2026-05-04.md",
+    "Knowlage/Flying Robots/Untitled.md",
+    "Knowlage/Control Theory/Diagonalization.md",
+    "Knowlage/Control Theory/State-space to diagram.md",
     "Knowlage/Control Theory/Similarity Transformation.md",
     "Knowlage/Control Theory/State-space equations.md",
-    "Knowlage/Control Theory/Diagonalization.md",
+    "Knowlage/Flying Robots",
+    "Knowlage/Control Theory/Short Test 2026-05-04.md",
     "Attachments/Pasted image 20260517163226.png",
     "[Diagonalization.md",
-    "Knowlage/Control Theory/State-space to diagram.md",
     "Knowlage/Control Theory/State-space mechanical position example.md",
     "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
     "MainNotes",
@@ -238,7 +239,6 @@
     "Scripts/Excalidraw/create-connected-block.js",
     "Scripts/Excalidraw/untitled folder",
     "Scripts/Excalidraw",
-    "Excalidraw/Scripts 1",
     "Attachments/Set3Cur.png",
     "Attachments/Set2Cur.png",
     "Attachments/Set1Cur.png",
