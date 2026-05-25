@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d52d6f1de336eed",
+        "id": "60b304883dd85f28",
         "type": "tabs",
         "children": [
           {
-            "id": "08b83d2c2efeb4c9",
+            "id": "accf52bb1e0fa1f8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -191,7 +191,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1658795afa12457",
+  "active": "accf52bb1e0fa1f8",
   "lastOpenFiles": [
     "Knowlage/Flying Robots/Untitled.md",
     "Knowlage/Motors/BLDC Study Notes.md",
