@@ -91,61 +91,62 @@ This sequence repeats every electrical revolution.
 
 ## Electrical Equation
 
-$$
+```math
 v_k(t)=Ri_k(t)+L\frac{di_k(t)}{dt}+e_k(t)
-$$
+```
 
 Where:
-- $v_k$— phase voltage,
-- $i_k$ — phase current,
-- $R$ — phase resistance,
-- $L$ — phase inductance,
-- $e_k$ — back EMF.
+- \(v_k\) — phase voltage,
+- \(i_k\) — phase current,
+- \(R\) — phase resistance,
+- \(L\) — phase inductance,
+- \(e_k\) — back EMF.
 
 ---
 
 ## Mechanical Equation
 
-$$
+```math
 T_{em}(t)=J\frac{d\omega_m(t)}{dt}+B\omega_m(t)+T_L(t)
-$$
+```
 
 Where:
-- $T_{em}$ — electromagnetic torque,
-- $J$ — moment of inertia,
-- $B$ — viscous friction coefficient,
-- $\omega_m$ — rotor speed,
-- $T_L$ — load torque.
+- \(T_{em}\) — electromagnetic torque,
+- \(J\) — moment of inertia,
+- \(B\) — viscous friction coefficient,
+- \(\omega_m\) — rotor speed,
+- \(T_L\) — load torque.
 
 ---
 
 ## Electromagnetic Torque
-$$
+
+```math
 T_{em}=\sum_{k=a,b,c} T_{em,k}
-$$
+```
 
 Single phase torque:
 
-$$
+```math
 T_{em,k}=i_k(t)k_T(\theta_e)
-$$
+```
 
 Back EMF:
 
-$$
+```math
 e_k(t)=k_e(\theta_e)\omega_m(t)
-$$
+```
 
 ---
 
 ## Electrical Angle
 
-$$
+```math
 \omega_e(t)=\frac{p}{2}\omega_m(t)
-$$
+```
 
 Where:
-- $p$ — number of poles.
+- \(p\) — number of poles.
 
 ---
 
@@ -245,15 +246,15 @@ Instead of trapezoidal commutation:
 
 ## Idea of V/f Control
 
-$$
+```math
 \frac{V}{f}=const
-$$
+```
 
 Magnetic flux:
 
-$$
+```math
 \phi \propto \frac{V}{f}
-$$
+```
 
 If frequency increases:
 - voltage must also increase.
@@ -281,9 +282,9 @@ If frequency increases:
 
 In scalar control, rotor electrical angle is generated from frequency.
 
-$$
+```math
 Angle_{pu}=Angle_{pu}+StepAngleMax\cdot Freq
-$$
+```
 
 ---
 

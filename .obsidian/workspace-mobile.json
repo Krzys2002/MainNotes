@@ -11,14 +11,10 @@
             "id": "0141bfb0dbbf6878",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Knowlage/Motors/BLDC Study Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BLDC Study Notes"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -122,7 +118,6 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Knowlage/Motors/BLDC Study Notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -189,9 +184,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "0141bfb0dbbf6878",
+  "active": "2b86e02c844b73b1",
   "lastOpenFiles": [
-    "Knowlage/Flying Robots/Untitled.md",
     "Untitled.md",
     "Knowlage/Motors/BLDC Study Notes.md",
     "Knowlage/Control Theory/State-space to diagram.md",
