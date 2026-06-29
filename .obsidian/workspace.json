@@ -4,24 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "60b304883dd85f28",
+        "id": "0d77f44a3e832f6f",
         "type": "tabs",
         "children": [
           {
-            "id": "accf52bb1e0fa1f8",
+            "id": "1ceb8e1ea4274b59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowlage/Control Theory/Control Theory Test 2 — Study Guide Full Solutions.md",
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 2 - Start Stop Motor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Theory Test 2 — Study Guide Full Solutions"
+              "title": "Task 2 - Start Stop Motor"
+            }
+          },
+          {
+            "id": "f2046a26e50fdfe0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 3 - Motor Run Time Limit.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task 3 - Motor Run Time Limit"
+            }
+          },
+          {
+            "id": "be805b3e89da2484",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 4 - Motor Light Flashing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task 4 - Motor Light Flashing"
+            }
+          },
+          {
+            "id": "141e8a1be67fed5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 5 - Timed Output Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task 5 - Timed Output Pattern"
+            }
+          },
+          {
+            "id": "0615723c16a99e85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 6 - Cyclic Interrupt Timing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task 6 - Cyclic Interrupt Timing"
+            }
+          },
+          {
+            "id": "71ced16ebd42f505",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowlage/PLC/06 Solved Tasks/Task 7 - Formula With Limits.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Task 7 - Formula With Limits"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -195,53 +266,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "accf52bb1e0fa1f8",
+  "active": "71ced16ebd42f505",
   "lastOpenFiles": [
+    "Knowlage/PLC/06 Solved Tasks/Task 6 - Cyclic Interrupt Timing.md",
+    "Knowlage/PLC/06 Solved Tasks/Task 5 - Timed Output Pattern.md",
+    "Knowlage/PLC/06 Solved Tasks/Task 4 - Motor Light Flashing.md",
+    "Knowlage/PLC/06 Solved Tasks/Task 3 - Motor Run Time Limit.md",
+    "Knowlage/PLC/06 Solved Tasks/Task 2 - Start Stop Motor.md",
+    "Knowlage/PLC/00 Maps of Content/Exam Preparation.md",
+    "Knowlage/PLC/06 Solved Tasks/Task 1 - PLC Wiring Diagram.md",
+    "Knowlage/PLC/00 Maps of Content/Function Blocks.md",
+    "Knowlage/PLC/04 Applications/Motor Start-Stop.md",
+    "Knowlage/PLC/05 Examples/Example - Stop Priority Motor Latch.md",
+    "Knowlage/PLC/expand_remaining_examples.py",
+    "Knowlage/PLC/05 Examples/Full Code - Temperature Alarm And Cooling Fan.md",
+    "Knowlage/PLC/05 Examples/Full Code - Alarm Latch With Acknowledge.md",
+    "Knowlage/PLC/05 Examples/Full Code - Conveyor Jam Detection.md",
+    "Knowlage/PLC/05 Examples/Full Code - Pump With Low High Level Hysteresis.md",
+    "Knowlage/PLC/05 Examples/Full Code - Counter With Reset And Done.md",
+    "Knowlage/PLC/expand_full_code_sections.py",
+    "Knowlage/PLC/01 Theory/Start-Stop Latch.md",
+    "Knowlage/PLC/01 Theory/PLC Wiring.md",
+    "Knowlage/PLC/Presentations/07_PLC_lecture_2025_hardware_6pp.pdf",
+    "Knowlage/PLC/07 Cheat Sheets/PLC Instruction Reference.md",
+    "Knowlage/PLC/Presentations/02_PLC_lecture_2025_4pp-2.pdf",
     "Knowlage/Control Theory/Control Theory Test 2 -- Full Solutions.md",
-    "Knowlage/Control Theory/Control Theory Test 2 — Study Guide Full Solutions.md",
-    "Knowlage/Control Theory/Control Theory Test 2 — Full Solutions.md",
-    "PLC_Lab6_Analog_Signal_Generator_Solution.md",
-    "PLC_Lab_Filters_Complete_Guide.md",
-    "Knowlage/Flying Robots/Untitled.md",
-    "Knowlage/Motors/BLDC Study Notes.md",
-    "Knowlage/Motors",
-    "Knowlage/Control Theory/Diagonalization.md",
-    "Knowlage/Control Theory/State-space to diagram.md",
-    "Knowlage/Control Theory/Similarity Transformation.md",
-    "Knowlage/Control Theory/State-space equations.md",
-    "Knowlage/Flying Robots",
-    "Knowlage/Control Theory/Short Test 2026-05-04.md",
-    "Attachments/Pasted image 20260517163226.png",
-    "[Diagonalization.md",
-    "Knowlage/Control Theory/State-space mechanical position example.md",
-    "Excalidraw/State-space to diagram 2026-05-16 12.12.52.excalidraw.md",
-    "MainNotes",
-    "Attachments/Pasted image 20260516190442.png",
-    "Attachments/Pasted image 20260516184525.png",
-    "Excalidraw/Templates/ControlSystem/BaseTemplate.md",
-    "Excalidraw/State-space equations 2026-05-14 14.41.32.excalidraw.md",
-    "Excalidraw/State-space equations 2026-05-14 18.01.48.excalidraw.md",
-    "Excalidraw/State-space mechanical position example 2026-05-14 18.29.38.excalidraw.md",
-    "Excalidraw/State-space mechanical position example 2026-05-14 19.10.22.excalidraw.md",
-    "Attachments/Pasted image 20260514192432.png",
-    "Closed-Loop Speed Control System – Laboratory Report.md",
-    "Welcome.md",
-    "Test Graphs.md",
-    "ac_motor_study_guide.md",
-    "Excalidraw/Drawing 2026-05-13 17.09.57.excalidraw.md",
-    "Excalidraw/Drawing 2026-05-14 10.53.37.excalidraw.md",
-    "Knowlage/Control Theory",
-    "Knowlage",
-    "Excalidraw/Scripts/Downloaded/Box Selected Elements.svg",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Scripts/Excalidraw/create-connected-block.js.sb-a0a79791-bXPfvd",
-    "Scripts/Excalidraw/create-connected-block.js",
-    "Scripts/Excalidraw/untitled folder",
-    "Attachments/Set3Cur.png",
-    "Attachments/Set2Cur.png",
-    "Attachments/Set1Cur.png",
-    "Attachments/Set3Sqer.png",
-    "Attachments/Set3Prop 1.png"
+    "Knowlage/PLC/01 Theory/Output Pulse Width Modulation.md",
+    "Knowlage/PLC/01 Theory/Digital PI Controller.md",
+    "Knowlage/PLC/01 Theory/Shift Register.md",
+    "Knowlage/PLC/00 Maps of Content/Source Material Index.md",
+    "Knowlage/PLC/08 Glossary/Glossary.md",
+    "Knowlage/PLC/08 Glossary/Timer.md",
+    "Knowlage/PLC/08 Glossary/Structured Text.md",
+    "Knowlage/PLC/Attachments/Task Scans/T_9-10.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_8.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_7.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_5-6.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_4.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_14-15.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_11-13.jpg",
+    "Knowlage/PLC/Attachments/Task Scans/T_1-3.jpg",
+    "Knowlage/PLC/Attachments/Task Scans",
+    "Knowlage/PLC/Attachments",
+    "Knowlage/PLC/08 Glossary",
+    "Knowlage/PLC/07 Cheat Sheets",
+    "Knowlage/PLC/06 Solved Tasks",
+    "Knowlage/PLC/05 Examples",
+    "Knowlage/PLC/Tasks/T_14-15.jpg",
+    "Knowlage/PLC/Tasks/T_11-13.jpg"
   ]
 }
